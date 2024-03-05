@@ -10,8 +10,9 @@ retry(2)
         stage('Hello') {
             steps {
                 echo 'Environemnt s1'
-		echo "my pet name is , ${params.pet}!"
+		echo "my pet name is , ${params.jimmy}!"
+
             }
         }
     }
-
+}
