@@ -3,6 +3,9 @@ pipeline {
 parameters{
 	string(name:'pet',defaultValue :'Jimmy',description:'Name of my pet')
 }
+Options{
+retry(2)
+}
     stages {
         stage('Hello') {
             steps {
@@ -11,4 +14,4 @@ parameters{
             }
         }
     }
-}
+
