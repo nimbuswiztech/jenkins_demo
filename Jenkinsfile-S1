@@ -7,7 +7,7 @@ parameters{
         stage('Hello') {
             steps {
                 echo 'Environemnt s1'
-		echo ‘$ my pet name is $pet’
+		echo '$ my pet name is $pet'
             }
         }
     }
