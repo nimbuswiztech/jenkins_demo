@@ -5,7 +5,7 @@ Pipeline {
     }
 
 parameters{
-	string(name: ‘pet’, defaultValue : ‘Jimmy’, Description: ‘Name of my pet’)
+	string(name:'pet',defaultValue :'Jimmy',Description:'Name of my pet')
 }
 
 pipeline {
