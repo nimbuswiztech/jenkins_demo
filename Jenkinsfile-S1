@@ -7,17 +7,11 @@ Pipeline {
 parameters{
 	string(name:'pet',defaultValue :'Jimmy',Description:'Name of my pet')
 }
-
-pipeline {
-    agent any
-
-    stages {
+stages {
         stage('Hello') {
             steps {
                 echo ‘$ my pet name is $pet’
             }
         }
     }
-}
-
 }
